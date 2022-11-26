@@ -26,4 +26,5 @@ libabsyntax_utils_a_SOURCES = \
 	spec_init_separator.cc \
 	type_initial_value.cc \
 	debug_ast.cc \
-	get_datatype_info.cc
+	get_datatype_info.cc \
+	../utils/symtable.hh

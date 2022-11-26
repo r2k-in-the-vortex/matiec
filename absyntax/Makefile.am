@@ -4,5 +4,9 @@ lib_LIBRARIES = libabsyntax.a
 
 libabsyntax_a_SOURCES = \
 	absyntax.cc \
-	visitor.cc
+	absyntax.hh \
+	absyntax.def \
+	visitor.cc \
+	visitor.hh \
+	../main.hh
 
