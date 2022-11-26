@@ -1,4 +1,12 @@
+./configure
+make
+sudo make install
 
+if you really need to redo automake then
+aclocal
+autoheader
+automake --add-missing
+autoconf
 
 
   MATIEC - IEC 61131-3 compiler
